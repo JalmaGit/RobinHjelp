@@ -67,12 +67,12 @@ def harderSolution():
     printTabularWithDict(mountainDict)
 
 #-----------------------------------------------------------------------------------
-#   This solution utilizes something called a dictonary. It then iterates through the dictonary
-#   A dictonary has a keyvalue with data attached to it, in this case the name of the mountain with
+#   This solution utilizes something called a dictonary. It then iterates through that dictonary
+#   A dictonary has a keyvalue with data attached to it. In our case the name of the mountain, with
 #   it's height and denominator attached to it. Since the denominator is attached rahter than
-#   being hard written into print(...) makes it possible for us to change the value and denominator with
-#   just some small bits of extra code. Another nice thing with dictonaries is that they are easy
-#   to make expand with more info, like adding more mountains
+#   being hard written into print(...), it makes it possible for us to change the value and denominator with
+#   just some small bits of extra code. Another nice thing with dictonaries is that they make it easy for us
+#   to expand with more info, like adding more mountains
 #-----------------------------------------------------------------------------------
 def hardestSolution():
     def printTabularWithDict(dictToPrint):

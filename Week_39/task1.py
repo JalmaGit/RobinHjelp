@@ -9,7 +9,7 @@ def simpleSolution():
     print(f"You have currently {freeDiskSpace} GB of free diskspace ")
 
 def harderSolution():
-    path = str(input("Write in the root to your system, for windows it will be C:\ "))
+    path = str(input("Write in the root to your system, for windows it will be C:\, E:\, etc "))
     stat = sh.disk_usage(path)
     print(f"Disk Usage statistics:\n{stat}")
     

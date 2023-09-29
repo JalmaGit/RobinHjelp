@@ -1,3 +1,4 @@
+
 def simpleSolution():
     def Greetings():
         userName = str(input("What is your name? "))

@@ -1,6 +1,9 @@
 import math
 
-def calculateCircuitLength(radius, lengthOfStraight):
+#----------------------------------------------------------------------------
+#Below we have created some functions that will help us solve the main task
+#----------------------------------------------------------------------------
+def calculateCircuitLength(radius, lengthOfStraight): # 
     return round(2 * math.pi * radius + lengthOfStraight * 2, 2)
 
 def convertKmhToMS(speedInKmh):
@@ -9,12 +12,15 @@ def convertKmhToMS(speedInKmh):
 def calculateTimeOnTenNumberOfRounds(speedInMs,lengthOfCircuit):
     return round((lengthOfCircuit / speedInMs) * 10, 2) 
 
+#---------------------------------------------------------------------------
+#Now the main program is being built
+#---------------------------------------------------------------------------
 def simpleSolution():
     lengthOfStraight = 100 #meter
     radius = 31.83 #meter
     averageSpeed = 50 #km/h
     
-    print(f"The length of the Circuit is {calculateCircuitLength(radius,lengthOfStraight)}")
+    print(f"The length of the Circuit is {calculateCircuitLength(radius,lengthOfStraight)}") 
     
     print(f"The average speed converted from km/h to m/s is {convertKmhToMS(averageSpeed)}")
 

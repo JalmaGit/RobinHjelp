@@ -1,3 +1,4 @@
+
 def simpleSolution():
 
     maaneder = "JanFebMarAprMaiJunJulAugSepOktNovDes"
@@ -6,6 +7,4 @@ def simpleSolution():
 
     selectedMonth = selectedMonth - 1
 
-    print(maaneder[selectedMonth*3:selectedMonth*3+3:3])
-
-simpleSolution()
+    print(maaneder[selectedMonth*3:selectedMonth*3+3:])
