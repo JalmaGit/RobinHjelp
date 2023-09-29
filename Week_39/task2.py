@@ -26,5 +26,4 @@ def simpleSolution():
     notationCheckerOfNumber()
     doubleOfNumber()
     reverseString()
-
-simpleSolution()
+    

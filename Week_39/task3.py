@@ -19,6 +19,3 @@ def simpleSolution():
     print(f"The average speed converted from km/h to m/s is {convertKmhToMS(averageSpeed)}")
 
     print(f"IT took Anne {calculateTimeOnTenNumberOfRounds(convertKmhToMS(averageSpeed),calculateCircuitLength(radius,lengthOfStraight))} seconds to complete 10 rounds")
-
-simpleSolution()\
-
