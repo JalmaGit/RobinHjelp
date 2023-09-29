@@ -1,10 +1,14 @@
 
-def simpleSolution():
+def findMonth(selectedMonth):
 
     maaneder = "JanFebMarAprMaiJunJulAugSepOktNovDes"
 
-    selectedMonth = int(input("Write in your month as a number: "))
-
     selectedMonth = selectedMonth - 1
 
-    print(maaneder[selectedMonth*3:selectedMonth*3+3:])
+    return maaneder[selectedMonth*3:selectedMonth*3+3:]
+
+def simpleSolution():
+
+    selectedMonth = int(input("Write in your month as a number: "))
+
+    print(findMonth(selectedMonth))
