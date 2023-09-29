@@ -1,7 +1,7 @@
 import math
 
 #----------------------------------------------------------------------------
-#Below we have created some functions that will help us solve the main task
+#   Below we have created some functions that will help us solve the main task
 #----------------------------------------------------------------------------
 def calculateCircuitLength(radius, lengthOfStraight): # 
     return round(2 * math.pi * radius + lengthOfStraight * 2, 2)
@@ -13,7 +13,7 @@ def calculateTimeOnTenNumberOfRounds(speedInMs,lengthOfCircuit):
     return round((lengthOfCircuit / speedInMs) * 10, 2) 
 
 #---------------------------------------------------------------------------
-#Now the main program is being built
+#   Now the main program is being built
 #---------------------------------------------------------------------------
 def simpleSolution():
     lengthOfStraight = 100 #meter

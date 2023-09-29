@@ -16,4 +16,4 @@ m = (a + 11*h + 22*l)//451
 n = (h + l - 7*m + 114)//31
 p = (h + l - 7*m + 114)%31
 
-print(f"Påskedagen faller på den {p + 1}.{task4.findMonth(n)}.{currentYear}")
+print(f"Påskedagen falt på den {p + 1}.{task4.findMonth(n)}.{currentYear}")

@@ -7,7 +7,7 @@ def simplestSolution():
     print("| StoSty | 2387m |")
     print("| SkaSto | 2373m |")
     print("══════════════════")
-
+# for this symbol: "═" press [alt + 205]
 
 
 #-----------------------------------------------------------------------------------
