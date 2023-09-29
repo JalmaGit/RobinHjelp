@@ -12,3 +12,13 @@ def doTask(input):
         task2.simpleSolution()
     elif (input == 3):
         task3.simpleSolution()
+def moneyThatPeopleOwnRobin(cash1,cash2):
+    interest = 1.25
+    totalCash = (cash1 + cash2)*interest
+    return totalCash
+
+NoahOwnCash = 100
+DuckOwnCash = 50
+
+print(moneyThatPeopleOwnRobin(NoahOwnCash,DuckOwnCash))
+
